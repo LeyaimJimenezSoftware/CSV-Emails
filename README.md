@@ -5,7 +5,7 @@ Step 2 install csv-writer with the following command `npm i -s csv-writer`.
 Step 3  "Create a file named ".env" with the following information and install
 `npm install dotenv`
 
-EMAIL=example@example.com
+EMAIL=example@example.com <br />
 PASSWORD=example
 
 Step 4 visit https://myaccount.google.com/lesssecureapps to turn on acces on your email.

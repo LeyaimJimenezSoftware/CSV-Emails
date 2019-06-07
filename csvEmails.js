@@ -31,7 +31,6 @@ async function csvWriteEmails() {
         }
       ]
     }, [])
-    console.log(data)
     csvWriter.writeRecords(data).then(()=> console.log('The CSV file was written successfully'))
   } catch(error) {
     console.log(error)

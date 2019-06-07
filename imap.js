@@ -1,9 +1,9 @@
-var imaps = require('imap-simple');
+let imaps = require('imap-simple');
 require('dotenv').config()
  
 
 
-var config = {
+let config = {
   imap: {
     user: process.env.EMAIL,
     password: process.env.PASSWORD,
